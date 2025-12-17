@@ -1,0 +1,118 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+.virtualenv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+.jupyter/
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# TensorFlow
+*.h5
+*.pb
+saved_model/
+checkpoint
+*.ckpt.*
+*.index
+*.meta
+
+# Machine Learning / Model files
+model/*.pth
+model/*.pt
+model/*.h5
+model/*.ckpt
+model/checkpoints/
+model/logs/
+model/runs/
+model/weights/
+
+# Data
+data/Dataset/
+data/*.csv
+data/*.zip
+data/*.tar.gz
+data/*.mp4
+data/*.avi
+data/*.mov
+data/*.jpg
+data/*.jpeg
+data/*.png
+data/*.gif
+data/*.npy
+data/*.npz
+data/*.pkl
+data/*.pickle
+data/raw/
+data/processed/
+data/train/
+data/test/
+data/val/
+
+# C++ build artifacts
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.dylib
+*.a
+*.lib
+cpp_src/build/
+cpp_src/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+*.log.*
+tensorboard/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# OS
+Thumbs.db
+desktop.ini
